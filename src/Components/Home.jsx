@@ -2,10 +2,7 @@ import React from "react";
 import HeroImage from "../assets/heroImage.jpg";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
 import useTypingAnimation from "./UseTypingAnimation";
 
 const Home = () => {
@@ -15,7 +12,6 @@ const Home = () => {
   return (
     <div
       name="home"
-<<<<<<< Updated upstream
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 flex items-center"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center w-full h-full px-4 md:flex-row">
@@ -30,21 +26,6 @@ const Home = () => {
           </p>
 
           <div>
-=======
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
-    >
-      <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center justify-center h-full px-4">
-        <div className="flex flex-col justify-center items-center md:items-start md:text-left mb-8 md:mb-0">
-          <h2 className="text-4xl sm:text-7xl font-bold text-white mb-4 md:mb-2">
-            I'm a <span className="animate-typing text-pink-500">{word}</span> Developer
-          </h2>
-          <p className="text-gray-500 py-4 max-w-md text-center md:text-left">
-            I have 2 years of experience building and designing Software.
-            currently, I love to work on web applications using technologies
-            like React, TailwindCss, Next Js, React-Redux, and GraphQL.
-          </p>
-          <div className="flex justify-center md:justify-start space-x-4">
->>>>>>> Stashed changes
             <Link
               to="portfolio"
               smooth
